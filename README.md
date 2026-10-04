@@ -55,8 +55,17 @@
 
 `PostgreSQL` `SQLAlchemy` `Python` `Plotly` `Panel` `PL/pgSQL`
 
----
+### 🤖 [Job Finder Agent — автоматизированный поиск вакансий](https://github.com/nconichtchenko-arch/job-finder-agent)
 
+Агент для автоматического сбора и фильтрации вакансий с hh.ru после закрытия публичного API.
+- Реализовал **парсинг HTML-страниц** через BeautifulSoup (обход ограничения API).
+- Спроектировал **схему БД PostgreSQL** с дедупликацией по `hh_id`.
+- Разработал **алгоритм скоринга** релевантности вакансий по ключевым словам с весами.
+- Настроил **разделение прав БД**: владелец (`postgres`) и пользователь приложения (`course`).
+
+`Python` `PostgreSQL` `SQLAlchemy` `BeautifulSoup` `psycopg3` `REST/HTML parsing`
+
+---
 ## 📫 Как со мной связаться
 
 [![Email](https://img.shields.io/badge/Email-pavloni@mail.ru-D14836?style=flat&logo=gmail&logoColor=white)](mailto:pavloni@mail.ru)
