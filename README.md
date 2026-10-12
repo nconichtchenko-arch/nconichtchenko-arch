@@ -2,6 +2,12 @@
 
 ### Аналитик данных / BI-аналитик
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
 Меняю стэк на Аналитика, 14+ лет опыта в телекоммуникационной отрасли. 
 Специализируюсь на анализе данных, визуализации и построении BI-решений. 
 Ищу удалённую позицию аналитика данных.
