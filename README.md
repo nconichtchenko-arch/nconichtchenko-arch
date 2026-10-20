@@ -71,6 +71,7 @@
 Репозиторий с инженерными кейсами по базам данных. Включает написание C-расширения для интеграции PostgreSQL с Telegram API, проектирование моделей Data Vault и EAV, оптимизацию запросов через pgbench и рекурсивные CTE.
 
 **Стек:** PostgreSQL, C, libcurl, PL/pgSQL, pgbench.
+
 🔗 [postgresql-advanced-engineering](https://github.com/nconichtchenko-arch/postgresql-advanced-engineering)
 
 ---
