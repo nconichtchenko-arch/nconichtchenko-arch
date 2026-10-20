@@ -16,11 +16,13 @@
 
 ## 🛠 Навыки
 
-**Анализ данных:** Python (Pandas, NumPy, SciPy)  
-**Базы данных:** PostgreSQL, MySQL, SQL  
-**Визуализация и BI:** Matplotlib, Seaborn, Plotly, Power BI, Panel  
-**Инструменты:** Jupyter, Git, GitHub  
-**Разработка:** Python CLI, BeautifulSoup, SQLAlchemy, rich, JSON
+**Анализ данных:** Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA.
+**Базы данных:** PostgreSQL, MySQL. 
+*   **SQL:** сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE).
+*   **Продвинутый SQL (учебные кейсы):** написание C-расширений для PostgreSQL, рекурсивные CTE, PL/pgSQL.
+**Визуализация и BI:** Matplotlib, Seaborn, Plotly, Power BI, Panel.
+**Инструменты:** Jupyter, Git, GitHub, Docker (базово).
+**Разработка:** Python CLI, BeautifulSoup, SQLAlchemy, rich, JSON.
 
 ---
 
