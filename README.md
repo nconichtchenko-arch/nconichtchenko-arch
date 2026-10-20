@@ -76,6 +76,7 @@
 - Построил дашборд в **Power BI** для визуализации выручки по странам.
 
 **Стек:** Python (Pandas), PostgreSQL, SQL, Power BI, Docker (базово).
+
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
 ---
