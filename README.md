@@ -83,6 +83,16 @@
 
 ---
 
+### 📡 IoT Real-time Anomaly Detection (Auction-Based)
+Инженерный кейс по проектированию распределенной системы обнаружения аномалий в реальном времени.
+*   **Архитектура:** Микросервисы на FastAPI, децентрализованный выбор координатора (Leader Election).
+*   **Стек:** Python, FastAPI, PostgreSQL, Prometheus, Grafana, Docker Compose.
+*   **Особенность:** Настроен мониторинг метрик (Data Observability) и визуализация в реальном времени.
+
+🔗 [iot-auction-anomaly-detection](https://github.com/nconichtchenko-arch/iot-auction-anomaly-detection)
+
+---
+
 ### 📊 DWH Marketplace Analytics (Новый проект!)
 Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
 
