@@ -93,7 +93,7 @@
 
 ---
 
-### 📊 DWH Marketplace Analytics (Новый проект!)
+### 📊 DWH Marketplace Analytics
 Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
 
 - Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
