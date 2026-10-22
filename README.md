@@ -96,12 +96,14 @@
 ### 📊 DWH Marketplace Analytics
 Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
 
-- Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
-- Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
-- Провел оптимизацию SQL (EXPLAIN ANALYZE): создал индексы, ускорив агрегационные запросы **в 6 раз** (с 6.3 до 0.9 сек).
-- Построил дашборд в **Power BI** для визуализации выручки по странам.
+*   Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
+*   Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
+*   Провел оптимизацию SQL (EXPLAIN ANALYZE): создал индексы, ускорив агрегационные запросы **в 6 раз** (с 6.3 до 0.9 сек).
+*   Построил дашборд в **Power BI** для визуализации выручки по странам.
+*   Внедрил элементы **Data Governance**: разработал скрипт автоматической генерации каталога данных (Data Catalog) в JSON.
+*   Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
 
-**Стек:** Python (Pandas), PostgreSQL, SQL, Power BI, Docker (базово).
+**Стек:** Python (Pandas), PostgreSQL, SQL, Power BI, Apache Airflow, Docker.
 
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
