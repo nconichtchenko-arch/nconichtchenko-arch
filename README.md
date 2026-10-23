@@ -1,6 +1,6 @@
 ## Добрый день! Я Павел Онищенко
 
-**Аналитик данных / BI-аналитик**
+**Аналитик данных / Инженер DWH**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -9,18 +9,18 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-*Меняю стэк на Аналитика. 14+ лет опыта в телекоммуникационной отрасли.*
+*Меняю стэк на Аналитика / Инженерию данных. 14+ лет опыта в телекоммуникационной отрасли.*
 
-Специализируюсь на анализе данных, визуализации и построении BI-решений. Ищу удалённую позицию аналитика данных.
+Специализируюсь на анализе данных, визуализации, построении DWH и ETL-пайплайнов. Ищу удалённую позицию аналитика данных или DWH-разработчика.
 
 ### Что я уже сделал для перехода:
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис 256 ч).
-- Реализовал 6 проектов на GitHub: от ETL-пайплайнов и DWH (модель «Звезда») до статистического анализа (t-тест, ABC-XYZ) и dbt-моделей с тестами.
-- Освоил современный стек: dbt, Apache Airflow, ClickHouse (базово), Docker.
+- Реализовал 7 проектов на GitHub: от DWH (модель «Звезда») и ETL-пайплайнов до dbt-моделей с тестами и аналитики Parquet через DuckDB.
+- Освоил современный стек: dbt, Apache Airflow, ClickHouse (базово), DuckDB, Parquet, Docker.
 - Применяю инженерный подход к данным: оптимизация SQL (EXPLAIN ANALYZE), контроль качества (Data Governance), автоматизация (Python, Airflow).
 
 ### Почему я полезен команде:
-Я инженер с 14-летним опытом, который понимает бизнес-процессы изнутри (телеком, инфраструктура) и умеет строить пайплайны данных. Мой GitHub — это проекты с реальными результатами (397к строк, ускорение SQL в 6 раз, бенчмарк ClickHouse 6.8x).
+Я инженер с 14-летним опытом, который понимает бизнес-процессы изнутри (телеком, инфраструктура) и умеет строить пайплайны данных. Мой GitHub — это проекты с реальными результатами (397к строк, ускорение SQL в 6 раз, бенчмарк ClickHouse 6.8x, сжатие CSV в Parquet в 11,4 раза).
 
 ---
 
@@ -28,36 +28,39 @@
 
 - **Анализ данных и BI:** Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA. Визуализация: Matplotlib, Seaborn, Plotly, Power BI, Panel.
 - **Базы данных и SQL:** PostgreSQL, MySQL, ClickHouse (базово). Сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE). PL/pgSQL (триггеры, функции), рекурсивные CTE.
-- **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), Docker (базово).
+- **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), DuckDB, Parquet, Docker (базово).
 - **Разработка и инструменты:** Git, GitHub, Jupyter, Python CLI, BeautifulSoup, REST API, JSON.
 
 ---
 
 ## 📊 Мои проекты
 
-### 🍔 Анализ данных о питании в сети фастфуда
-Дипломный проект «Инженер по большим данным» (Университет Иннополис). 
-Полный цикл: от загрузки в PostgreSQL до интерактивного дашборда.
+### 📊 DWH Marketplace Analytics
+Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
 
-- Загрузил и структурировал данные в PostgreSQL, спроектировал нормализованную схему БД.
-- Реализовал систему аудита на триггерах и функциях PL/pgSQL.
-- Провёл EDA с визуализацией (heatmap, boxplot, scatter plot, bar chart).
-- Построил интерактивный дашборд на Panel + Plotly.
+*   Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
+*   Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
+*   Провел оптимизацию SQL (EXPLAIN ANALYZE): создал индексы, ускорив агрегационные запросы **в 6 раз** (с 6.3 до 0.9 сек).
+*   Построил дашборд в **Power BI** для визуализации выручки по странам.
+*   Внедрил элементы **Data Governance**: разработал скрипт автоматической генерации каталога данных (Data Catalog) в JSON.
+*   Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
+*   **Интеграция dbt:** написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`).
 
-**Стек:** PostgreSQL, SQLAlchemy, Python, Plotly, Panel, PL/pgSQL  
-🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/fastfood-nutrition-analysis)
+**Стек:** Python (Pandas), PostgreSQL, SQL, Power BI, Apache Airflow, Docker, dbt.
+
+🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
 ---
 
-### 🛒 Анализ товарного ассортимента розничного магазина
-Полный цикл анализа данных: загрузка, очистка, feature engineering, EDA.
+### 🦆 DuckDB + Parquet Analytics
+Мини-проект по аналитике данных **без развёртывания СУБД** (Data Lake / Analytics on Files).
 
-- ABC-XYZ анализ 2 343 товаров: выделил 869 позиций основного ассортимента, 130 дополнительного, 999 потенциально интересных.
-- Статистическая гипотеза о различии среднего чека в будни и выходные (t-тест, p-value = 0.0486) — выявил, что средний чек в будни статистически значимо выше на 636 руб.
-- Сформулировал бизнес-рекомендации по оптимизации ассортимента.
+- Прочитал CSV (45,5 МБ) напрямую через DuckDB без ETL.
+- Конвертировал в Parquet — сжатие в **11,4 раза** (3,8 МБ).
+- Подтвердил идентичность данных повторным запросом.
 
-**Стек:** Python, Pandas, SciPy, Seaborn, Jupyter  
-🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/retail-assortment-analysis)
+**Стек:** DuckDB, Python, Parquet, SQL  
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/duckdb-parquet-analytics)
 
 ---
 
@@ -95,22 +98,6 @@
 
 ---
 
-### 📊 DWH Marketplace Analytics
-Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
-
-*   Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
-*   Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
-*   Провел оптимизацию SQL (EXPLAIN ANALYZE): создал индексы, ускорив агрегационные запросы **в 6 раз** (с 6.3 до 0.9 сек).
-*   Построил дашборд в **Power BI** для визуализации выручки по странам.
-*   Внедрил элементы **Data Governance**: разработал скрипт автоматической генерации каталога данных (Data Catalog) в JSON.
-*   Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
-
-**Стек:** Python (Pandas), PostgreSQL, SQL, Power BI, Apache Airflow, Docker.
-
-🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
-
----
-
 ### 🔒 Сканер безопасности Python-кода
 Статический анализатор Python-кода с 37 правилами проверки уязвимостей.
 
@@ -122,6 +109,32 @@
 
 **Стек:** Python, CLI, JSON, rich, Git  
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/python-security-scanner)
+
+---
+
+### 🛒 Анализ товарного ассортимента розничного магазина
+Полный цикл анализа данных: загрузка, очистка, feature engineering, EDA.
+
+- ABC-XYZ анализ 2 343 товаров: выделил 869 позиций основного ассортимента, 130 дополнительного, 999 потенциально интересных.
+- Статистическая гипотеза о различии среднего чека в будни и выходные (t-тест, p-value = 0.0486) — выявил, что средний чек в будни статистически значимо выше на 636 руб.
+- Сформулировал бизнес-рекомендации по оптимизации ассортимента.
+
+**Стек:** Python, Pandas, SciPy, Seaborn, Jupyter  
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/retail-assortment-analysis)
+
+---
+
+### 🍔 Анализ данных о питании в сети фастфуда
+Дипломный проект «Инженер по большим данным» (Университет Иннополис). 
+Полный цикл: от загрузки в PostgreSQL до интерактивного дашборда.
+
+- Загрузил и структурировал данные в PostgreSQL, спроектировал нормализованную схему БД.
+- Реализовал систему аудита на триггерах и функциях PL/pgSQL.
+- Провёл EDA с визуализацией (heatmap, boxplot, scatter plot, bar chart).
+- Построил интерактивный дашборд на Panel + Plotly.
+
+**Стек:** PostgreSQL, SQLAlchemy, Python, Plotly, Panel, PL/pgSQL  
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/fastfood-nutrition-analysis)
 
 ---
 
