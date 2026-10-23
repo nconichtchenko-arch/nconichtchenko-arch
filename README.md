@@ -59,7 +59,8 @@
 - Конвертировал в Parquet — сжатие в **11,4 раза** (3,8 МБ).
 - Подтвердил идентичность данных повторным запросом.
 
-**Стек:** DuckDB, Python, Parquet, SQL  
+**Стек:** DuckDB, Python, Parquet, SQL
+
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/duckdb-parquet-analytics)
 
 ---
@@ -74,7 +75,8 @@
 - Добавил систему учёта откликов: таблица applications, команды applied и list, VIEW v_my_applications.
 - Использую инструмент ежедневно: за один день обработал 20+ вакансий, отправил 4 отклика, прошёл скрининг.
 
-**Стек:** Python, PostgreSQL, SQLAlchemy, BeautifulSoup, psycopg3, REST/HTML parsing  
+**Стек:** Python, PostgreSQL, SQLAlchemy, BeautifulSoup, psycopg3, REST/HTML parsing
+
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/job-finder-agent)
 
 ---
@@ -107,7 +109,8 @@
 - Добавил поддержку .scannerignore и код возврата для CI/CD.
 - В тестовом файле обнаружил 12 проблем, включая 2 критические.
 
-**Стек:** Python, CLI, JSON, rich, Git  
+**Стек:** Python, CLI, JSON, rich, Git 
+
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/python-security-scanner)
 
 ---
@@ -120,6 +123,7 @@
 - Сформулировал бизнес-рекомендации по оптимизации ассортимента.
 
 **Стек:** Python, Pandas, SciPy, Seaborn, Jupyter  
+
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/retail-assortment-analysis)
 
 ---
@@ -133,7 +137,8 @@
 - Провёл EDA с визуализацией (heatmap, boxplot, scatter plot, bar chart).
 - Построил интерактивный дашборд на Panel + Plotly.
 
-**Стек:** PostgreSQL, SQLAlchemy, Python, Plotly, Panel, PL/pgSQL  
+**Стек:** PostgreSQL, SQLAlchemy, Python, Plotly, Panel, PL/pgSQL 
+
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/fastfood-nutrition-analysis)
 
 ---
