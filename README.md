@@ -16,19 +16,13 @@
 
 ## 🛠 Навыки
 
-**Анализ данных:** Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA.
+Анализ данных и BI: Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA. Визуализация: Matplotlib, Seaborn, Plotly, Power BI, Panel.
 
-**Базы данных:** PostgreSQL, MySQL.
+Базы данных и SQL: PostgreSQL, MySQL, ClickHouse (базово). Сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE). PL/pgSQL (триггеры, функции), рекурсивные CTE.
 
-*   **SQL:** сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE).
-*   **Продвинутый SQL (учебные кейсы):** написание C-расширений для PostgreSQL, рекурсивные CTE, PL/pgSQL.
+Инженерия данных: dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), Docker (базово).
 
-**Визуализация и BI:** Matplotlib, Seaborn, Plotly, Power BI, Panel.
-
-**Инструменты:** Jupyter, Git, GitHub, Docker (базово).
-
-**Разработка:** Python CLI, BeautifulSoup, SQLAlchemy, rich, JSON.
-
+Разработка и инструменты: Git, GitHub, Jupyter, Python CLI, BeautifulSoup, REST API, JSON.
 ---
 
 ## 📊 Мои проекты
