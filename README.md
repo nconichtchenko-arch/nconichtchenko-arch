@@ -35,20 +35,20 @@
 
 ## 📊 Мои проекты
 
-### 📊 DWH Marketplace Analytics
+## DWH Marketplace Analytics
 Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
 
-*   Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
-*   Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
-*   Провел оптимизацию SQL (EXPLAIN ANALYZE): создал индексы, ускорив агрегационные запросы **в 6 раз** (с 6.3 до 0.9 сек).
-*   Построил дашборд в **Power BI** для визуализации выручки по странам.
-*   Внедрил элементы **Data Governance**: разработал скрипт автоматической генерации каталога данных (Data Catalog) в JSON.
-*   Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
-*   **Интеграция dbt:** написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`).
+- Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
+- Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
+- Провел оптимизацию SQL (EXPLAIN ANALYZE): создал индексы, ускорив агрегационные запросы **в 6 раз** (с 6.3 до 0.9 сек).
+- Построил дашборд в **Power BI** для визуализации выручки по странам.
+- Внедрил элементы **Data Governance**: разработал скрипт автоматической генерации каталога данных (Data Catalog) в JSON.
+- Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
+- Интеграция dbt:** написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
+- Продвинутый ClickHouse:** партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
+- Аналитика Parquet:** конвертировал CSV в Parquet через DuckDB (сжатие в **11,4 раза**).
 
-**Стек:** Python (Pandas), PostgreSQL, SQL, Power BI, Apache Airflow, Docker, dbt.
-
-🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
+**Стек:** Python (Pandas), PostgreSQL, ClickHouse, SQL, Power BI, Apache Airflow, dbt, DuckDB, Parquet, Docker.
 
 ---
 
