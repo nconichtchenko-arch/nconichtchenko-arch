@@ -44,8 +44,8 @@
 - Построил дашборд в **Power BI** для визуализации выручки по странам.
 - Внедрил элементы **Data Governance**: разработал скрипт автоматической генерации каталога данных (Data Catalog) в JSON.
 - Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
-- Интеграция dbt:** написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
-- Продвинутый ClickHouse:** партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
+- Интеграция dbt: написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
+- Продвинутый ClickHouse: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
 - Аналитика Parquet:** конвертировал CSV в Parquet через DuckDB (сжатие в **11,4 раза**).
 
 **Стек:** Python (Pandas), PostgreSQL, ClickHouse, SQL, Power BI, Apache Airflow, dbt, DuckDB, Parquet, Docker.
