@@ -47,6 +47,8 @@
 - Интеграция **dbt**: написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
 - Продвинутый **ClickHouse**: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
 
+🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
+
 **См. также:** [duckdb-parquet-analytics](https://github.com/nconichtchenko-arch/duckdb-parquet-analytics) — аналитика Parquet через DuckDB (без ETL).
 
 **Стек:** Python (Pandas), PostgreSQL, ClickHouse, SQL, Power BI, Apache Airflow, dbt, DuckDB, Parquet, Docker.
