@@ -36,7 +36,7 @@
 ## 📊 Мои проекты
 
 ## DWH Marketplace Analytics
-Проектирование и разработка корпоративного хранилища данных (DWH) для e-commerce.
+Pet-проект: DWH для e-commerce на реальном датасете (397 924 строки). Полный цикл: ETL, Airflow, dbt, ClickHouse, DuckDB.
 
 - Спроектировал модель данных «Звезда» (Star Schema): таблица фактов `fact_sales` и измерения `dim_customers`, `dim_products`, `dim_dates`.
 - Написал ETL-пайплайн на Python (Pandas, SQLAlchemy), загрузил и очистил **397 924 строки** транзакций.
