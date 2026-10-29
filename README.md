@@ -29,6 +29,7 @@
 - **Анализ данных и BI:** Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA. Визуализация: Matplotlib, Seaborn, Plotly, Power BI, Panel.
 - **Базы данных и SQL:** PostgreSQL, MySQL, ClickHouse (базово). Сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE). PL/pgSQL (триггеры, функции), рекурсивные CTE.
 - **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), DuckDB, Parquet, Docker (базово).
+- **Базы данных (MPP):** Greenplum (развертывание в Docker, загрузка данных, витрины), ClickHouse, PostgreSQL.
 - **Разработка и инструменты:** Git, GitHub, Jupyter, Python CLI, BeautifulSoup, REST API, JSON.
 
 ---
@@ -52,6 +53,19 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 **См. также:** [duckdb-parquet-analytics](https://github.com/nconichtchenko-arch/duckdb-parquet-analytics) — аналитика Parquet через DuckDB (без ETL).
 
 **Стек:** Python (Pandas), PostgreSQL, ClickHouse, SQL, Power BI, Apache Airflow, dbt, DuckDB, Parquet, Docker.
+
+---
+
+### 🐘 Greenplum DWH Demo
+Pet-проект по развертыванию MPP-СУБД **Greenplum** в Docker.
+
+- Развернул Greenplum (образ `woblerr/greenplum:6.27.1`) в Docker, проверил MPP-архитектуру (1 Master + 2 Segment).
+- Загрузил 1000 строк из основного проекта (`fct_sales`) в таблицу `sales_raw` с распределением по `stock_code`.
+- Построил витрину `sales_mart` (топ-10 товаров по выручке) через `CREATE TABLE AS ... DISTRIBUTED BY`.
+
+**Стек:** Greenplum, PostgreSQL, Docker, SQL.
+
+🔗 [greenplum-dwh-demo](https://github.com/nconichtchenko-arch/greenplum-dwh-demo)
 
 ---
 
