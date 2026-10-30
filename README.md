@@ -82,6 +82,21 @@ Pet-проект по развертыванию MPP-СУБД **Greenplum** в D
 
 ---
 
+## Airflow E2E Pipeline (Курсы валют)
+
+Проект демонстрирует end-to-end пайплайн оркестрации данных с использованием Apache Airflow. DAG автоматически забирает курсы валют через REST API, сохраняет их в PostgreSQL и отправляет уведомление на Email.
+
+- Развернул Apache Airflow 2.8.1 (LocalExecutor, Docker) и настроил связи с PostgreSQL.
+- Написал DAG: PythonOperator для работы с REST API (open.er-api.com) и записи в БД, EmailOperator для отправки уведомлений через SMTP Mail.ru.
+- Решил проблемы сетевого взаимодействия (VirtualBox NAT, доступ к БД по 10.0.2.2) и настроил SMTP (SSL, отключение STARTTLS).
+- Подтвердил работу скриншотами: граф DAG, данные в pgAdmin, лог задачи и полученное письмо.
+
+Стек: Apache Airflow, Python, PostgreSQL, psycopg2, Docker, SMTP.
+
+[Ссылка на проект](https://github.com/nconichtchenko-arch/airflow-e2e-api-pipeline)
+
+---
+
 ### 🤖 Job Finder Agent — автоматизированный поиск вакансий
 Агент для автоматического сбора и фильтрации вакансий с hh.ru после закрытия публичного API.
 
