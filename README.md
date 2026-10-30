@@ -47,6 +47,7 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 - Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
 - Интеграция **dbt**: написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
 - Продвинутый **ClickHouse**: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
+- Data Quality & Drift Monitoring: скрипт `data_quality_checks.py` (Great Expectations), результаты в `metadata_catalog.data_quality_results`, дашборд в Metabase (круговая диаграмма + таблица дрифта).
 
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
