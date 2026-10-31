@@ -49,7 +49,7 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 - Продвинутый **ClickHouse**: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
 - Data Quality & Drift Monitoring: скрипт data_quality_checks.py (Great Expectations), кастомные проверки (уникальность комбинации, формат даты, аномалии > 100 000), dbt-тесты (not_null, relationships). Результаты в metadata_catalog.data_quality_results, дашборд в Metabase. Найдены и удалены «сиротские» данные, почищены «хвосты» от CDC. Все тесты проходят (PASS=5).
 - Data Vault 2.0: в схеме data_vault реализована полная модель: Hub (hub_customer, hub_order, hub_product), Link (link_order_customer, link_order_product), Satellite (sat_customer_details, sat_order_details). Загружено 18 536 заказов, 3 665 товаров, 387 875 связей. Обновлена ER-диаграмма (полная модель) и README.
-- **Metadata Management (углубление, 31.10.2026):** В каталог добавлены поля `owner` (владелец) и `tags` (автоматическое определение слоя: fact, dim, staging). Скрипт обновляет существующие записи (ON CONFLICT DO UPDATE), не дублируя их.
+- **Metadata Management (углубление, 31.10.2026):** В каталог добавлены поля `owner` (владелец) и `tags` (автоопределение слоя: fact, dim, staging). Скрипт обновляет записи через `ON CONFLICT DO UPDATE`. В главном профиле добавлен соответствующий пункт.
 
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
