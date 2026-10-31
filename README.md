@@ -49,6 +49,7 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 - Продвинутый **ClickHouse**: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
 - Data Quality & Drift Monitoring: скрипт `data_quality_checks.py` (Great Expectations), результаты в `metadata_catalog.data_quality_results`, дашборд в Metabase (круговая диаграмма + таблица дрифта).
 - **Data Vault 2.0:** в схеме `data_vault` реализованы Hub (`hub_customer`), Link (`link_order_customer`), Satellite (`sat_customer_details`). Показывает знание архитектуры Enterprise DWH.
+- **Data Quality (углубление, 31.10.2026):** Добавлены кастомные проверки в Great Expectations (уникальность комбинации `invoice_no + stock_code`, формат даты, отсутствие аномалий > 100 000). Добавлены dbt-тесты (`not_null`, `relationships`). Найдены и удалены «сиротские» данные (customer_id=999, order_date=2026-10-30, stock_code=TEST). Почищены «хвосты» от CDC (публикация `sales_pub`, слот `sales_slot`). Все тесты проходят (PASS=5).
 
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
