@@ -47,10 +47,8 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 - Настроил **оркестрацию ETL-процесса** через Apache Airflow (Docker): написал DAG, который ежедневно запускает пайплайн.
 - Интеграция **dbt**: написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
 - Продвинутый **ClickHouse**: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
-- Data Quality & Drift Monitoring: скрипт `data_quality_checks.py` (Great Expectations), результаты в `metadata_catalog.data_quality_results`, дашборд в Metabase (круговая диаграмма + таблица дрифта).
-- **Data Vault 2.0:** в схеме `data_vault` реализованы Hub (`hub_customer`), Link (`link_order_customer`), Satellite (`sat_customer_details`). Показывает знание архитектуры Enterprise DWH.
-- **Data Vault 2.0 (расширение, 31.10.2026):** Добавлены Hub для заказов (`hub_order`) и товаров (`hub_product`), Link для связи заказа и товара (`link_order_product`), Satellite для заказов (`sat_order_details`). Загружено: 18 536 заказов, 3 665 товаров, 387 875 связей. Обновлена ER-диаграмма (полная модель) и README.
-- **Data Quality (углубление, 31.10.2026):** Добавлены кастомные проверки в Great Expectations (уникальность комбинации `invoice_no + stock_code`, формат даты, отсутствие аномалий > 100 000). Добавлены dbt-тесты (`not_null`, `relationships`). Найдены и удалены «сиротские» данные (customer_id=999, order_date=2026-10-30, stock_code=TEST). Почищены «хвосты» от CDC (публикация `sales_pub`, слот `sales_slot`). Все тесты проходят (PASS=5).
+- Data Quality & Drift Monitoring: скрипт data_quality_checks.py (Great Expectations), кастомные проверки (уникальность комбинации, формат даты, аномалии > 100 000), dbt-тесты (not_null, relationships). Результаты в metadata_catalog.data_quality_results, дашборд в Metabase. Найдены и удалены «сиротские» данные, почищены «хвосты» от CDC. Все тесты проходят (PASS=5).
+- Data Vault 2.0: в схеме data_vault реализована полная модель: Hub (hub_customer, hub_order, hub_product), Link (link_order_customer, link_order_product), Satellite (sat_customer_details, sat_order_details). Загружено 18 536 заказов, 3 665 товаров, 387 875 связей. Обновлена ER-диаграмма (полная модель) и README.
 
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
