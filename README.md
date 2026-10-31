@@ -84,7 +84,7 @@ Pet-проект по развертыванию MPP-СУБД **Greenplum** в D
 
 ---
 
-## Airflow E2E Pipeline (Курсы валют)
+## 🌐 Airflow E2E Pipeline (Курсы валют)
 
 Проект демонстрирует end-to-end пайплайн оркестрации данных с использованием Apache Airflow. DAG автоматически забирает курсы валют через REST API, сохраняет их в PostgreSQL и отправляет уведомление на Email.
 
