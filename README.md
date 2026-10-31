@@ -48,6 +48,7 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 - Интеграция **dbt**: написал модели `stg_sales` и `fct_sales`, добавил тесты (`not_null`, `relationships`), сделал `fct_sales` **инкрементальной**.
 - Продвинутый **ClickHouse**: партиционирование (`MergeTree`), TTL, материализованные представления (`SummingMergeTree`).
 - Data Quality & Drift Monitoring: скрипт `data_quality_checks.py` (Great Expectations), результаты в `metadata_catalog.data_quality_results`, дашборд в Metabase (круговая диаграмма + таблица дрифта).
+- **Data Vault 2.0:** в схеме `data_vault` реализованы Hub (`hub_customer`), Link (`link_order_customer`), Satellite (`sat_customer_details`). Показывает знание архитектуры Enterprise DWH.
 
 🔗 [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics)
 
