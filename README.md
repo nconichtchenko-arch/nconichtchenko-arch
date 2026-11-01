@@ -76,6 +76,21 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
+### ⚙️ dbt CI/CD Demo
+
+Демонстрация настройки **CI/CD для dbt-проекта** с использованием GitHub Actions.
+
+- **dbt-модель** `sales_summary.sql` (агрегация продаж по дням).
+- **dbt-тесты** (`not_null`, `unique`).
+- **GitHub Actions**: автоматический запуск `dbt run` и `dbt test` при каждом пуше.
+- **Временная PostgreSQL** в CI (создание тестовой таблицы `fct_sales`).
+
+**Стек:** dbt-core, PostgreSQL, GitHub Actions.
+
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/dbt-ci-cd-demo)
+
+---
+
 ### 🐘 Greenplum DWH Demo
 Pet-проект по развертыванию MPP-СУБД **Greenplum** в Docker.
 
