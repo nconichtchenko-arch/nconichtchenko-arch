@@ -91,6 +91,21 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
+### 🏗 Raw → Clean → Analytics: Трехслойный DWH пайплайн
+
+Демонстрация классической трехслойной архитектуры хранилища данных (DWH) с оркестрацией в Apache Airflow.
+
+- **Raw-слой:** Python-скрипт забирает данные из API и сохраняет их в `raw.currency_rates` (JSONB).
+- **Clean-слой:** Python-скрипт нормализует данные в `clean.currency_rates_clean`.
+- **Analytics-слой:** Python-скрипт строит витрину `analytics.currency_rates_mart`.
+- **Оркестрация:** DAG в Apache Airflow (`raw_clean_analytics_pipeline`).
+
+**Стек:** Python, PostgreSQL, Apache Airflow (Docker), REST API.
+
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/raw-clean-analytics-demo)
+
+---
+
 ### 🐘 Greenplum DWH Demo
 Pet-проект по развертыванию MPP-СУБД **Greenplum** в Docker.
 
