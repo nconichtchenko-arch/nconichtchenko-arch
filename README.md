@@ -16,7 +16,7 @@
 ## Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **9 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и ETL-пайплайнов до Data Quality (Great Expectations), Data Contracts и аналитики Parquet через DuckDB. Это код с реальными результатами (397к строк, ускорение SQL в 6 раз, 18к заказов в Data Vault).
+- Реализовал 10 проектов на GitHub — от DWH (модель «Звезда», Data Vault 2.0) и ETL-пайплайнов до Data Quality (Great Expectations), Data Contracts, CI/CD для dbt и аналитики Parquet через DuckDB. Это код с реальными результатами (397к строк, ускорение SQL в 6 раз, 18к заказов в Data Vault).
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Governance, Data Contracts), автоматизация на Python и Airflow.
 
