@@ -29,9 +29,9 @@
 
 - **Анализ данных и BI:** Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA. Визуализация: Matplotlib, Seaborn, Plotly, Power BI, Panel.
 - **Базы данных и SQL:** PostgreSQL, MySQL, ClickHouse (базово). Сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE). PL/pgSQL (триггеры, функции), рекурсивные CTE.
-- **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), DuckDB, Parquet, Docker (базово).
+- **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), DuckDB, Parquet, Docker (базово), Data Contracts, Data Quality (Great Expectations).
 - **Базы данных (MPP):** Greenplum (развертывание в Docker, загрузка данных, витрины), ClickHouse, PostgreSQL.
-- **Разработка и инструменты:** Git, GitHub, Jupyter, Python CLI, BeautifulSoup, REST API, JSON.
+- **Разработка и инструменты:** Git, GitHub, Jupyter, Python CLI, BeautifulSoup, REST API, JSON, Streamlit, GitHub Actions (CI/CD).
 
 ---
 
