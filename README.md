@@ -61,6 +61,20 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
+### 📜 Data Contracts Demo
+
+Демонстрация подхода **Data Contracts** для контроля качества данных в DWH.
+
+- **YAML-контракт** для таблицы `fct_sales` (описание колонок, типов, ограничений).
+- **Python-валидатор**, который проверяет данные в PostgreSQL на соответствие контракту.
+- **CI/CD (GitHub Actions)**, который автоматически проверяет YAML-контракт при каждом пуше.
+
+**Стек:** Python, PyYAML, PostgreSQL, GitHub Actions.
+
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/data-contracts-demo)
+
+---
+
 ### 🐘 Greenplum DWH Demo
 Pet-проект по развертыванию MPP-СУБД **Greenplum** в Docker.
 
