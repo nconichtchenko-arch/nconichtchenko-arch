@@ -106,6 +106,20 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
+### 🧪 E2E Data Quality Pipeline: dbt + Great Expectations + CI/CD
+
+Демонстрация сквозного пайплайна качества данных: dbt-модель + проверки Great Expectations + автоматизация в GitHub Actions.
+
+- **dbt-модель** `sales_summary.sql` (агрегация продаж по дням).
+- **Great Expectations** (проверки на NULL, диапазоны, уникальность).
+- **CI/CD**: при каждом пуше запускается `dbt run` и проверки GX.
+
+**Стек:** dbt-core, Great Expectations, PostgreSQL, GitHub Actions.
+
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/dbt-great-expectations-demo)
+
+---
+
 ### 🐘 Greenplum DWH Demo
 Pet-проект по развертыванию MPP-СУБД **Greenplum** в Docker.
 
