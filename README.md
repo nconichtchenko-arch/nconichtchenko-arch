@@ -98,6 +98,16 @@ Pet-проект по анализу рынка вакансий в сфере D
 
 ---
 
+### 🧠 Customer Churn Prediction (ML)
+Pet-проект по прогнозированию оттока клиентов с использованием Machine Learning.
+- **Задачи:** Разработка модели (Random Forest) для предсказания ухода клиента на основе RFM-метрик.
+- **Стек:** Python (Pandas, Scikit-learn), Seaborn.
+- **Результат:** Достигнут Recall 80% (модель выявляет 4 из 5 уходящих клиентов). Устранена утечка данных (Data Leakage) путем разделения данных по времени.
+
+🔗 [customer-churn-prediction](https://github.com/nconichtchenko-arch/customer-churn-prediction)
+
+---
+
 ### ⚙️ dbt CI/CD Demo
 
 Демонстрация настройки **CI/CD для dbt-проекта** с использованием GitHub Actions.
