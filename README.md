@@ -63,15 +63,16 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
-### 📜 Data Contracts Demo
+### 📜 Data Contracts Demo (Streamlit Dashboard)
 
-Демонстрация подхода **Data Contracts** для контроля качества данных в DWH.
+Демонстрация подхода Data Contracts для контроля качества данных в DWH.
 
-- **YAML-контракт** для таблицы `fct_sales` (описание колонок, типов, ограничений).
-- **Python-валидатор**, который проверяет данные в PostgreSQL на соответствие контракту.
-- **CI/CD (GitHub Actions)**, который автоматически проверяет YAML-контракт при каждом пуше.
+- YAML-контракт для таблицы `fct_sales` (описание колонок, типов, ограничений).
+- Python-валидатор (PyYAML, psycopg2) с сохранением результатов в JSON.
+- Streamlit-дашборд для визуализации статуса контракта (пройден/не пройден).
+- CI/CD (GitHub Actions) для проверки YAML-контракта при пуше.
 
-**Стек:** Python, PyYAML, PostgreSQL, GitHub Actions.
+**Стек:** Python, PostgreSQL, Streamlit, GitHub Actions.
 
 🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/data-contracts-demo)
 
