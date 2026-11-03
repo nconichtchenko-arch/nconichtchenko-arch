@@ -73,6 +73,16 @@ Pet-проект: Аналитика e-commerce на реальном датас
 
 ---
 
+### 📈 Job Market Analytics
+Pet-проект по анализу рынка вакансий в сфере Data / DWH / BI.
+- **Задачи:** Выявление топ-навыков, анализ зарплатных вилок, топ компаний-работодателей.
+- **Стек:** Python (Pandas), SQL (PostgreSQL), Streamlit, Plotly.
+- **Результат:** Подтвержден фокус на DWH, SQL и Python. Медианная зарплата на рынке — 144 175 ₽.
+
+🔗 [job-market-analytics](https://github.com/nconichtchenko-arch/job-market-analytics)
+
+---
+
 ### 📜 Data Contracts Demo (Streamlit Dashboard)
 
 Демонстрация подхода Data Contracts для контроля качества данных в DWH.
