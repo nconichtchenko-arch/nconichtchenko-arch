@@ -63,6 +63,16 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
+### 📊 E-commerce Analytics: RFM & Retention
+Pet-проект: Аналитика e-commerce на реальном датасете (397к строк). 
+- **Задачи:** RFM-сегментация клиентов, когортный анализ (Retention).
+- **Стек:** SQL (оконные функции), Python (Pandas), Streamlit, Metabase.
+- **Результат:** Выявлены VIP-сегменты, приносящие основную выручку, и рассчитано удержание клиентов по месяцам.
+
+🔗 [ecommerce-analytics-rfm](https://github.com/nconichtchenko-arch/ecommerce-analytics-rfm)
+
+---
+
 ### 📜 Data Contracts Demo (Streamlit Dashboard)
 
 Демонстрация подхода Data Contracts для контроля качества данных в DWH.
