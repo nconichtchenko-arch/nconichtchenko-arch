@@ -122,6 +122,20 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 
 ---
 
+### 🚀 ClickHouse Optimization Demo
+
+Демонстрация оптимизации запросов в ClickHouse: партиционирование, `ORDER BY`, сравнение производительности на 1 млн строк.
+
+- Таблица `sales_raw` (без оптимизации) vs `sales_optimized` (партиционирование + `ORDER BY`).
+- Скрипты для загрузки данных, оптимизации и бенчмарка.
+- **Ускорение:** ~1.4x (на 1 млн строк).
+
+**Стек:** ClickHouse, Python, Docker.
+
+🔗 [Ссылка на проект](https://github.com/nconichtchenko-arch/clickhouse-optimization-demo)
+
+---
+
 ### 🐘 Greenplum DWH Demo
 Pet-проект по развертыванию MPP-СУБД **Greenplum** в Docker.
 
