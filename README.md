@@ -16,7 +16,7 @@
 ## Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **17 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket) и анализа рынка вакансий (Job Market Analytics) и машинного обучения (Customer Churn Prediction) и прогнозирования временных рядов (Time Series).
+- Реализовал **18 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов.
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Governance, Data Contracts), автоматизация на Python и Airflow.
 
@@ -80,6 +80,16 @@ Pet-проект по прогнозированию ежедневной выр
 - **Результат:** Модель улавливает недельную сезонность. MAE = 17 432, RMSE = 32 157.
 
 🔗 [ecommerce-sales-forecast](https://github.com/nconichtchenko-arch/ecommerce-sales-forecast)
+
+---
+
+### 🧪 A/B Testing Simulation (Продуктовая аналитика)
+Pet-проект по симуляции и анализу A/B-теста. Демонстрирует навыки проверки статистических гипотез.
+- **Задачи:** Проверка статистической значимости разницы в конверсии, расчет p-value и доверительных интервалов, анализ ограничений (correlation vs causation).
+- **Стек:** Python (Pandas, NumPy), Statsmodels, Matplotlib.
+- **Результат:** Разница в 1.84 п.п. статистически значима (p-value = 0.0033), однако сделан акцент на необходимости исключения внешних конфаундеров для доказательства причинности.
+
+🔗 [ab-testing-simulation](https://github.com/nconichtchenko-arch/ab-testing-simulation)
 
 ---
 
