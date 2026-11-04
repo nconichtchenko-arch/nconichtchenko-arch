@@ -16,7 +16,7 @@
 ## Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **22 проекта на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слоя dbt (Semantic Layer).
+- Реализовал **22 проекта на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer).
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Governance, Data Contracts), автоматизация на Python и Airflow.
 
