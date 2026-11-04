@@ -16,7 +16,7 @@
 ## Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **20 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus)
+- Реализовал **21 проект на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC)
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Governance, Data Contracts), автоматизация на Python и Airflow.
 
@@ -70,6 +70,16 @@ Pet-проект по настройке мониторинга и observability
 - **Результат:** Настроен дашборд «PostgreSQL Monitoring» с отображением активных сессий в реальном времени.
 
 🔗 [grafana-postgres-monitoring](https://github.com/nconichtchenko-arch/grafana-postgres-monitoring)
+
+---
+
+### 📦 DVC (Data Version Control) Demo
+Pet-проект по версионированию данных с помощью DVC. Демонстрация DataOps-практик.
+- **Задачи:** Управление версиями датасетов, интеграция с Git, откат к предыдущим версиям данных.
+- **Стек:** DVC, Git, Python (venv).
+- **Результат:** Показан полный цикл: от добавления данных под контроль DVC до мгновенного отката к предыдущей версии (без ручного копирования файлов).
+
+🔗 [dvc-data-versioning-demo](https://github.com/nconichtchenko-arch/dvc-data-versioning-demo)
 
 ---
 
