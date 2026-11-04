@@ -73,6 +73,16 @@ Pet-проект: Аналитика e-commerce на реальном датас
 
 ---
 
+### 📈 E-commerce Sales Forecast (Time Series)
+Pet-проект по прогнозированию ежедневной выручки с использованием Prophet (Meta).
+- **Задачи:** Обучение модели для прогноза продаж на 30 дней вперед, оценка качества (MAE, RMSE).
+- **Стек:** Python (Pandas), Prophet, Scikit-learn, Matplotlib.
+- **Результат:** Модель улавливает недельную сезонность. MAE = 17 432, RMSE = 32 157.
+
+🔗 [ecommerce-sales-forecast](https://github.com/nconichtchenko-arch/ecommerce-sales-forecast)
+
+---
+
 ### 📈 Job Market Analytics
 Pet-проект по анализу рынка вакансий в сфере Data / DWH / BI.
 - **Задачи:** Выявление топ-навыков, анализ зарплатных вилок, топ компаний-работодателей.
