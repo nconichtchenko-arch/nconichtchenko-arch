@@ -13,12 +13,13 @@
 
 Специализируюсь на анализе данных, визуализации и построении DWH/ETL-пайплайнов. Ищу удалённую позицию аналитика данных или инженера DWH.
 
-## Что я уже сделал для перехода:
+### Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
 - Реализовал **26 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
+- **Разработал платформу Data Governance (`data-governance-platform`):** объединил каталогизацию (парсинг dbt manifest), валидацию Data Contracts (нашел 2 инцидента дрейфа схемы на реальных данных) и визуализацию Lineage (с восстановлением потерянных рёбер) в едином Streamlit-дашборде.
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
-- Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Governance, Data Contracts), автоматизация на Python и Airflow.
+- Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Contracts), автоматизация на Python и Airflow.
 
 ### Почему я полезен команде:
 Я инженер с 14-летним опытом, который понимает бизнес-процессы изнутри (телеком, инфраструктура) и умеет строить пайплайны данных. Мой GitHub — это проекты с реальными результатами (397к строк, ускорение SQL в 6 раз, бенчмарк ClickHouse 6.8x, сжатие CSV в Parquet в 11,4 раза).
@@ -29,7 +30,7 @@
 
 - **Анализ данных и BI:** Python (Pandas, NumPy, SciPy), статистический анализ (t-тест, A/B), EDA, **RFM-анализ, когортный анализ (Retention), ABC-XYZ, анализ оттока (Churn)**. Визуализация: Matplotlib, Seaborn, Plotly, Power BI, Panel, **Streamlit**.
 - **Базы данных и SQL:** PostgreSQL, MySQL, ClickHouse (базово). Сложные запросы (JOIN, CTE, оконные функции), оптимизация (индексы, EXPLAIN ANALYZE). PL/pgSQL (триггеры, функции), рекурсивные CTE.
-- **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), DuckDB, Parquet, Docker (базово), Data Contracts, Data Quality (Great Expectations).
+- **Инженерия данных:** dbt (модели, тесты), Apache Airflow (DAG, оркестрация), ETL на Python (Pandas, SQLAlchemy), DuckDB, Parquet, Docker (базово), **Data Contracts, Data Quality (Great Expectations)**.
 - **Базы данных (MPP):** Greenplum (развертывание в Docker, загрузка данных, витрины), ClickHouse, PostgreSQL.
 - **Разработка и инструменты:** Git, GitHub, Jupyter, Python CLI, BeautifulSoup, REST API, JSON, Streamlit, GitHub Actions (CI/CD).
 
