@@ -36,6 +36,23 @@
 
 ---
 
+## 🗺 Покрытие архитектуры данных (Data Platform)
+
+Мои pet-проекты — это не разрозненные скрипты, а компоненты единой современной архитектуры данных. В таблице ниже показано, как они закрывают ключевые слои платформы (от источников до продуктов из данных).
+
+| Слой архитектуры | Реализовано в проектах |
+| :--- | :--- |
+| **Источники (OLTP, API, Files)** | `airflow-e2e-api-pipeline`, `job-finder-agent` |
+| **Транспорт и стриминг** | `kafka-clickhouse-demo`, `iot-auction-anomaly-detection` |
+| **Хранение (DWH, Lake, MPP)** | `marketplace-dwh-analytics` (PostgreSQL + ClickHouse), `greenplum-dwh-demo`, `duckdb-parquet-analytics` |
+| **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo` |
+| **Data Governance (Каталог, Lineage)** | `data-governance-platform`, `dbt-data-lineage-demo`, `neo4j-data-lineage` |
+| **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo` |
+| **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring` |
+| **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
+
+---
+
 ## 📊 Мои проекты
 
 ### 🏗️ DWH Marketplace Analytics
