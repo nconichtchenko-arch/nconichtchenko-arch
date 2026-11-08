@@ -16,7 +16,7 @@
 ## Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **25 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
+- Реализовал **26 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Governance, Data Contracts), автоматизация на Python и Airflow.
 
@@ -60,6 +60,17 @@ Pet-проект: DWH для e-commerce на реальном датасете (
 **См. также:** [duckdb-parquet-analytics](https://github.com/nconichtchenko-arch/duckdb-parquet-analytics) — аналитика Parquet через DuckDB (без ETL).
 
 **Стек:** Python (Pandas), PostgreSQL, ClickHouse, SQL, Power BI, Apache Airflow, dbt, DuckDB, Parquet, Docker.
+
+---
+
+### 🧭 Data Governance Platform (Каталог + Контракты + Lineage)
+Pet-проект: единый дашборд Data Governance, объединяющий каталогизацию данных, валидацию контрактов и граф зависимостей.
+- **Каталог:** Парсинг `manifest.json` от dbt-проекта (`marketplace-dwh-analytics`), извлечение метаданных (owner, layer, tags) для 6 моделей, 1 снапшота и 5 тестов.
+- **Контракты:** Валидатор YAML-контрактов на реальных данных PostgreSQL. Выявил и помог исправить 2 инцидента Data Quality (несовпадение объявленных и фактических типов данных: `text` vs `integer`, `numeric` vs `bigint`). Добавлена проверка типов через `information_schema`.
+- **Lineage:** Построение интерактивного графа зависимостей (Plotly). Реализован алгоритм восстановления «потерянных» рёбер (virtual edges), которые dbt не видит из-за использования raw SQL вместо `ref()`.
+- **Стек:** Python, Streamlit, Plotly, PostgreSQL, PyYAML, dbt.
+
+🔗 [data-governance-platform](https://github.com/nconichtchenko-arch/data-governance-platform)
 
 ---
 
