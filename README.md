@@ -47,7 +47,7 @@
 | **Хранение (DWH, Lake, MPP)** | `marketplace-dwh-analytics` (PostgreSQL + ClickHouse), `greenplum-dwh-demo`, `duckdb-parquet-analytics` |
 | **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo` |
 | **Data Governance (Каталог, Lineage)** | `data-governance-platform`, `dbt-data-lineage-demo`, `neo4j-data-lineage` |
-| **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo` |
+| **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts` |
 | **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring` |
 | **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
 
