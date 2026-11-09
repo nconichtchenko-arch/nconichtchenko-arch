@@ -16,7 +16,7 @@
 ### Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **29 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
+- Реализовал **30 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
 - **Разработал платформу Data Governance (`data-governance-platform`):** объединил каталогизацию (парсинг dbt manifest), валидацию Data Contracts (нашел 2 инцидента дрейфа схемы на реальных данных) и визуализацию Lineage (с восстановлением потерянных рёбер) в едином Streamlit-дашборде.
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Contracts), автоматизация на Python и Airflow.
@@ -48,7 +48,7 @@
 | **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo` |
 | **Data Governance (Каталог, Lineage)** | `data-governance-platform`, `dbt-data-lineage-demo`, `neo4j-data-lineage` |
 | **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts` |
-| **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo` |
+| **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo`, `demand-forecasting-demo` |
 | **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
 | **Цифровые продукты и сервисы** | `data-as-a-service-api` (REST API) |
 
@@ -120,6 +120,16 @@ Pet-проект: анализ эффективности рекламных к�
 - **Результат:** Выявлены самые окупаемые каналы (Telegram, Email). Дашборд с топ-10 кампаний и графиком зависимости CTR от ROMI.
 
 🔗 [marketing-analytics-demo](https://github.com/nconichtchenko-arch/marketing-analytics-demo)
+
+---
+
+### 📈 Demand Forecasting Demo (Прогнозирование спроса)
+Pet-проект: прогнозирование ежедневной выручки на Python с использованием библиотеки `supplycm`.
+- **Задачи:** Сравнение методов прогнозирования (Moving Average, Holt-Winters, Croston), оценка точности (MAPE), визуализация.
+- **Стек:** Python, Pandas, Matplotlib, supplycm.
+- **Результат:** Лучший MAPE показал метод Moving Average (30.56%). Выявлена проблема резких всплесков выручки, которые не улавливаются базовыми моделями.
+
+🔗 [demand-forecasting-demo](https://github.com/nconichtchenko-arch/demand-forecasting-demo)
 
 ---
 
