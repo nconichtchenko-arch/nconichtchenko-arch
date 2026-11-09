@@ -48,7 +48,7 @@
 | **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo` |
 | **Data Governance (Каталог, Lineage)** | `data-governance-platform`, `dbt-data-lineage-demo`, `neo4j-data-lineage` |
 | **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts` |
-| **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring` |
+| **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo` |
 | **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
 | **Цифровые продукты и сервисы** | `data-as-a-service-api` (REST API) |
 
