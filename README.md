@@ -16,7 +16,7 @@
 ### Что я уже сделал для перехода:
 
 - Прошёл переподготовку по аналитике данных (ТГУ, 256 ч) и программу «Инженер по большим данным» (Университет Иннополис, 256 ч), чтобы закрыть теоретическую базу.
-- Реализовал **28 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
+- Реализовал **29 проектов на GitHub** — от DWH (модель «Звезда», Data Vault 2.0) и трехслойной архитектуры (Raw → Clean → Analytics) до E2E-пайплайна качества (dbt + Great Expectations + CI/CD), Data Contracts, оптимизации ClickHouse, аналитики Parquet через DuckDB, глубокого анализа данных (RFM, Retention, ABC-XYZ, Market Basket), анализа рынка вакансий (Job Market Analytics), машинного обучения (Customer Churn Prediction), прогнозирования временных рядов (Time Series) и статистического анализа A/B-тестов. Мониторинг (Grafana/Prometheus). Версионирование данных (DVC). Семантический слой dbt (Semantic Layer). Визуализация Data Lineage (dbt).
 - **Разработал платформу Data Governance (`data-governance-platform`):** объединил каталогизацию (парсинг dbt manifest), валидацию Data Contracts (нашел 2 инцидента дрейфа схемы на реальных данных) и визуализацию Lineage (с восстановлением потерянных рёбер) в едином Streamlit-дашборде.
 - Освоил современный стек: dbt, Apache Airflow, ClickHouse, DuckDB, Parquet, Docker, Streamlit, CI/CD (GitHub Actions). Готов применять их в реальных DWH-задачах.
 - Применяю инженерный подход: оптимизация SQL через EXPLAIN ANALYZE, контроль качества (Data Contracts), автоматизация на Python и Airflow.
@@ -110,6 +110,16 @@ Pet-проект: микросервис на FastAPI для отдачи биз
 - **Результат:** API успешно отдаёт реальные данные из витрины `fct_sales` (выручка по дням, топ товаров). Документация Swagger генерируется автоматически.
 
 🔗 [data-as-a-service-api](https://github.com/nconichtchenko-arch/data-as-a-service-api)
+
+---
+
+### 📊 Marketing Analytics Demo (ROMI & CTR)
+Pet-проект: анализ эффективности рекламных кампаний (CTR, CPC, ROMI) на данных e-commerce.
+- **Задачи:** Расчет маркетинговых метрик, построение витрины в PostgreSQL, визуализация в Streamlit.
+- **Стек:** Python, SQL, PostgreSQL, Streamlit, Plotly.
+- **Результат:** Выявлены самые окупаемые каналы (Telegram, Email). Дашборд с топ-10 кампаний и графиком зависимости CTR от ROMI.
+
+🔗 [marketing-analytics-demo](https://github.com/nconichtchenko-arch/marketing-analytics-demo)
 
 ---
 
