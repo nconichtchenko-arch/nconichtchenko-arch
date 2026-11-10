@@ -51,7 +51,7 @@
 | **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts` |
 | **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo`, `demand-forecasting-demo` |
 | **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
-| **Цифровые продукты и сервисы** | `data-as-a-service-api` (REST API) |
+| **Цифровые продукты и сервисы** | `data-as-a-service-api`, `marketing-analytics-api` (REST API) |
 
 ---
 
@@ -102,7 +102,8 @@
 - [dbt + Great Expectations Demo](https://github.com/nconichtchenko-arch/dbt-great-expectations-demo) — E2E пайплайн качества.
 
 ### 🚀 Data Products & API
-- [Data-as-a-Service API](https://github.com/nconichtchenko-arch/data-as-a-service-api) — микросервис на FastAPI.
+- [Data-as-a-Service API](https://github.com/nconichtchenko-arch/data-as-a-service-api) — микросервис на FastAPI для отдачи метрик из DWH.
+- [Marketing Analytics API](https://github.com/nconichtchenko-arch/marketing-analytics-api) — REST API для маркетинговых метрик (ROMI, CTR).
 
 ### 📡 Мониторинг и Lineage
 - [Grafana + Prometheus + Loki](https://github.com/nconichtchenko-arch/grafana-postgres-monitoring) — мониторинг PostgreSQL.
