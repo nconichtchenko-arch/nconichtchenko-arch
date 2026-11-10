@@ -73,7 +73,6 @@
 
 ### 📊 Статистика и A/B-тесты
 - [A/B Testing Simulation](https://github.com/nconichtchenko-arch/ab-testing-simulation) — Z-тест, p-value, ограничения.
-- [Job Market Analytics](https://github.com/nconichtchenko-arch/job-market-analytics) — парсинг, SQL-агрегация, Streamlit.
 
 ---
 
@@ -83,6 +82,7 @@
 
 ### 🏗 Ядро: DWH и Хранилища
 - [Marketplace DWH Analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics) — **ГЛАВНЫЙ ПРОЕКТ.** DWH, Data Vault 2.0, GX, Data Catalog, Streamlit, Airflow, dbt, ClickHouse, CI/CD.
+- [Raw → Clean → Analytics](https://github.com/nconichtchenko-arch/raw-clean-analytics-demo) — трехслойная архитектура.
 - [Greenplum DWH Demo](https://github.com/nconichtchenko-arch/greenplum-dwh-demo) — MPP СУБД (+ бенчмарк с ClickHouse).
 - [ClickHouse Optimization Demo](https://github.com/nconichtchenko-arch/clickhouse-optimization-demo) — ускорение в 1.4x (+ бенчмарк с Greenplum).
 - [PostgreSQL Advanced Engineering](https://github.com/nconichtchenko-arch/postgresql-advanced-engineering) — C-расширения, Data Vault, EAV.
@@ -91,7 +91,6 @@
 ### 🔄 Оркестрация и ETL/ELT
 - [Airflow E2E Pipeline](https://github.com/nconichtchenko-arch/airflow-e2e-api-pipeline) — E2E пайплайн (курсы валют -> PostgreSQL -> Email).
 - [dbt CI/CD Demo](https://github.com/nconichtchenko-arch/dbt-ci-cd-demo) — CI/CD для dbt.
-- [Raw → Clean → Analytics](https://github.com/nconichtchenko-arch/raw-clean-analytics-demo) — трехслойная архитектура.
 - [Kafka + ClickHouse Demo](https://github.com/nconichtchenko-arch/kafka-clickhouse-demo) — стриминг.
 
 ### 🛡 Data Governance & Quality
@@ -112,6 +111,7 @@
 ### 🧪 Учебные кейсы и эксперименты
 - [IoT Anomaly Detection](https://github.com/nconichtchenko-arch/iot-auction-anomaly-detection) — распределенная система обнаружения аномалий (FastAPI, Prometheus, Grafana).
 - [Python Security Scanner](https://github.com/nconichtchenko-arch/python-security-scanner) — статический анализатор кода (37 правил).
+- [Job Market Analytics](https://github.com/nconichtchenko-arch/job-market-analytics) — парсинг, SQL-агрегация, Streamlit.
 - [Retail Assortment Analysis](https://github.com/nconichtchenko-arch/retail-assortment-analysis) — ABC-XYZ, t-тест (p-value = 0.0486).
 - [Fastfood Nutrition Analysis](https://github.com/nconichtchenko-arch/fastfood-nutrition-analysis) — EDA, PL/pgSQL, дашборд на Panel.
 
