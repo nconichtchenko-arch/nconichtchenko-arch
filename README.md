@@ -46,7 +46,7 @@
 | **Источники (OLTP, API, Files)** | `airflow-e2e-api-pipeline`, `job-finder-agent` |
 | **Транспорт и стриминг** | `kafka-clickhouse-demo`, `iot-auction-anomaly-detection` |
 | **Хранение (DWH, Lake, MPP)** | `marketplace-dwh-analytics` (PostgreSQL + ClickHouse), `greenplum-dwh-demo`, `duckdb-parquet-analytics` |
-| **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo` |
+| **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo`, `dagster-orchestration-demo` |
 | **Data Governance (Каталог, Lineage)** | `data-governance-platform`, `dbt-data-lineage-demo`, `neo4j-data-lineage`, `data-observability-demo` |
 | **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts` |
 | **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo`, `demand-forecasting-demo` |
@@ -90,6 +90,7 @@
 
 ### 🔄 Оркестрация и ETL/ELT
 - [Airflow E2E Pipeline](https://github.com/nconichtchenko-arch/airflow-e2e-api-pipeline) — E2E пайплайн (курсы валют -> PostgreSQL -> Email).
+- [Dagster Orchestration Demo](https://github.com/nconichtchenko-arch/dagster-orchestration-demo) — оркестрация данных на Dagster (asset-centric).
 - [dbt CI/CD Demo](https://github.com/nconichtchenko-arch/dbt-ci-cd-demo) — CI/CD для dbt.
 - [Kafka + ClickHouse Demo](https://github.com/nconichtchenko-arch/kafka-clickhouse-demo) — стриминг.
 
