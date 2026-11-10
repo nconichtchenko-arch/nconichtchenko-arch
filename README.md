@@ -72,7 +72,8 @@
 - [Customer Churn Prediction](https://github.com/nconichtchenko-arch/customer-churn-prediction) — ML (Random Forest), Recall 80%.
 
 ### 📊 Статистика и A/B-тесты
-- [A/B Testing Simulation](https://github.com/nconichtchenko-arch/ab-testing-simulation) — Z-тест, p-value, ограничения.
+- [A/B Testing Simulation](https://github.com/nconichtchenko-arch/ab-testing-simulation) — Z-тест для двух групп.
+- [A/B Testing ANOVA](https://github.com/nconichtchenko-arch/ab-testing-anova) — ANOVA для трех и более групп.
 
 ---
 
