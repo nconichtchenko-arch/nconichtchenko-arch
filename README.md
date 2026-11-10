@@ -105,9 +105,9 @@
 
 ### 📡 Мониторинг и Lineage
 - [Grafana + Prometheus + Loki](https://github.com/nconichtchenko-arch/grafana-postgres-monitoring) — мониторинг PostgreSQL.
+- [Data Observability Demo](https://github.com/nconichtchenko-arch/data-observability-demo) — мониторинг пайплайнов Airflow.
 - [dbt Data Lineage Demo](https://github.com/nconichtchenko-arch/dbt-data-lineage-demo) — визуализация Lineage для dbt.
 - [Neo4j Data Lineage](https://github.com/nconichtchenko-arch/neo4j-data-lineage) — Data Lineage в Neo4j.
-- [Data Observability Demo](https://github.com/nconichtchenko-arch/data-observability-demo) — мониторинг пайплайнов Airflow (парсинг логов, Streamlit).
 
 ### 🧪 Учебные кейсы и эксперименты
 - [IoT Anomaly Detection](https://github.com/nconichtchenko-arch/iot-auction-anomaly-detection) — распределенная система обнаружения аномалий (FastAPI, Prometheus, Grafana).
