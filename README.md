@@ -48,7 +48,7 @@
 | **Хранение (DWH, Lake, MPP)** | `marketplace-dwh-analytics` (PostgreSQL + ClickHouse), `greenplum-dwh-demo`, `duckdb-parquet-analytics` |
 | **Трансформация (ETL/ELT)** | `dbt-ci-cd-demo`, `dbt-great-expectations-demo`, `dbt-semantic-layer-demo`, `dagster-orchestration-demo`, `prefect-orchestration-demo` |
 | **Data Governance (Каталог, Lineage)** | `data-governance-platform`, `dbt-data-lineage-demo`, `neo4j-data-lineage`, `data-observability-demo` |
-| **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts` |
+| **Data Quality & Contracts** | `soda-data-quality-demo`, `data-contracts-demo`, `api-data-contracts`, `data-quality-agent` |
 | **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo`, `demand-forecasting-demo` |
 | **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
 | **Цифровые продукты и сервисы** | `data-as-a-service-api`, `marketing-analytics-api` (REST API) |
@@ -102,6 +102,7 @@
 - [Soda Data Quality Demo](https://github.com/nconichtchenko-arch/soda-data-quality-demo) — Data Quality проверки.
 - [Data Contracts Demo](https://github.com/nconichtchenko-arch/data-contracts-demo) — YAML-контракт, валидатор.
 - [dbt + Great Expectations Demo](https://github.com/nconichtchenko-arch/dbt-great-expectations-demo) — E2E пайплайн качества.
+- [Data Quality Agent (MCP)](https://github.com/nconichtchenko-arch/data-quality-agent) — AI-агент для проверки качества данных через MCP (LLM + PostgreSQL).
 
 ### 🚀 Data Products & API
 - [Data-as-a-Service API](https://github.com/nconichtchenko-arch/data-as-a-service-api) — микросервис на FastAPI для отдачи метрик из DWH.
