@@ -52,6 +52,7 @@
 | **BI и Визуализация** | `executive-dashboard`, `ecommerce-analytics-rfm`, `grafana-postgres-monitoring`, `marketing-analytics-demo`, `demand-forecasting-demo` |
 | **Retention / Оптимизация** | `clickhouse-optimization-demo` (TTL, партиционирование) |
 | **Цифровые продукты и сервисы** | `data-as-a-service-api`, `marketing-analytics-api` (REST API) |
+| **AI-агенты (MCP)** | `data-quality-agent` (мульти-базовый агент на MCP + Ollama) |
 
 ---
 
