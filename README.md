@@ -100,7 +100,7 @@
 ### 🛡 Data Governance & Quality
 - [Data Governance Platform](https://github.com/nconichtchenko-arch/data-governance-platform) — Каталог + Контракты + Lineage.
 - [API Data Contracts](https://github.com/nconichtchenko-arch/api-data-contracts) — защита DWH от изменений API.
-- [Soda Data Quality Demo](https://github.com/nconichtchenko-arch/soda-data-quality-demo) — Data Quality проверки.
+- [Soda Data Quality Demo](https://github.com/nconichtchenko-arch/soda-data-quality-demo) — Data Quality проверки. Интеграция Soda в Airflow
 - [Data Contracts Demo](https://github.com/nconichtchenko-arch/data-contracts-demo) — YAML-контракт, валидатор.
 - [dbt + Great Expectations Demo](https://github.com/nconichtchenko-arch/dbt-great-expectations-demo) — E2E пайплайн качества.
 - [Data Quality Agent (MCP)](https://github.com/nconichtchenko-arch/data-quality-agent) — AI-агент для проверки качества данных через MCP (LLM + PostgreSQL).
